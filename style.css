@@ -58,5 +58,14 @@ button:disabled {
 
 .title {
 	color:rgb(0, 0, 0);
-	font-size: 40px;
+	font-size: 40	px;
+}
+
+.image-quiz {
+  max-width: 300px;
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px; /* optionnel */
+  border : 2px solid black
 }
