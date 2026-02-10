@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Quiz – Stage 3e</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="card">
+        <h1 class="title">Quiz </h1>
+
+        <p id="question">Question ici</p>
+
+        <div id="answers" class="buttons"></div>
+
+        <p id="result">👉 Choisis une réponse</p>
+        <p id="score">Score : 0</p>
+
+        <button id="nextBtn" onclick="nextQuestion()" disabled>
+            Question suivante →
+        </button>
+
+        <button class="reset" onclick="resetQuiz()">Recommencer</button>
+    </div>
+
+    <script src="logique.js"></script>
+</body>
+
+</html>
